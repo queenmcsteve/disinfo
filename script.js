@@ -30,6 +30,7 @@ async function getSearchTerms() {
   document.getElementById("search-terms").innerHTML = searchTerms;
 }
 goButton.addEventListener("click", getSearchTerms);
+goButton.addEventListener("touchstart", getSearchTerms);
 
 async function searchYT(url) {
   var response = await fetch(url);
