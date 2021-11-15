@@ -1,0 +1,23 @@
+.header {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+#go-button {
+  background-color: red;
+}
+#search-term-card {
+  height: 120px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: block;
+    width: 50%;
+  }
+}

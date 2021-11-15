@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>DISINFORM YOUTUBE</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="title">
+          <h3>DISiNFO:</h3>
+          feed your algorithm some random
+        </div>
+        <div class="button">
+          <button class="btn" id="go-button">generate</button>
+        </div>
+      </div>
+      <div class="random-words">
+        <div class="card" id="search-term-card">
+          <h5>Choose a search term:</h5>
+          <h6><span id="search-terms"></span></h6>
+        </div>
+      </div>
+      <div class="youtube-container">
+        <iframe
+          id="video-iframe"
+          src=""
+          width="853"
+          height="480"
+          frameborder="0"
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
