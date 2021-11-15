@@ -3,8 +3,7 @@ document.getElementById("search-term-card").style.display = "none";
 //remove items from local storage on load
 localStorage.clear();
 
-// my key: AIzaSyDocdKUc8vFu4Tv30BXxP8Immc17qgXjas
-var key = "AIzaSyDSvqHkiOyrUOr7LTw4D3tczbiBLBsRJR8";
+var key = config.key;
 
 var goButton = document.getElementById("go-button");
 let randomWordUrl = "https://random-word-api.herokuapp.com/word?number=10";
