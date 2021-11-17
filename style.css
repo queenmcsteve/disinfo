@@ -1,15 +1,27 @@
 .header {
   /* background-color: blue; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .button {
   margin-top: 40px;
   margin-right: 40px;
 }
-#go-button {
+/* #go-button {
   background-color: red;
+} */
+
+#go-button:hover {
+  transform: scale(1.5);
+  transition-duration: 1s;
+  color: blue;
+  background-color: red;
+  padding: 3px;
+  border-radius: 8px;
+  box-shadow: 0 15px 16px 0 red, 0 17px 30px 0 red;
+  cursor: pointer;
 }
+
 #search-term-card {
   height: 120px;
   padding: 10px;
@@ -22,7 +34,7 @@
   }
 }
 
-#youtube-container {
+.youtube-container iframe {
   width: 853px;
   height: 480px;
 }
