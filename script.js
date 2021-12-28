@@ -39,7 +39,7 @@ async function searchYT(url) {
   videoCode = localStorage.getItem("video-code");
   document.querySelector(
     "#video-iframe"
-  ).src = `https://www.youtube.com/embed/${videoCode}`;
+  ).src = `https://www.youtube.com/embed/${videoCode}?playsinline=0&fs=1`;
 }
 // //load youtube video on search term click
 $("#search-term-card").click(function (event) {
